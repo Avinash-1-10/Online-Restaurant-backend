@@ -28,7 +28,7 @@ This is a simple REST API for a hypothetical online restaurant service. It allow
 1. **Clone the repository:**
 
 ```bash
-   git clone <repository-url>
+   git clone https://github.com/Avinash-1-10/Online-Restaurant-backend
 ```
 
 2. Navigate to the project directory
@@ -68,10 +68,7 @@ Create a `.env` file in the root directory and add the following variables:
     - `password`: Password for the user account.
 
 - **GET /user**: Get all users.
-  - Returns:
-    - `200 OK` with an array of all users fetched successfully.
-    - `500 Internal Server Error` if an error occurs while fetching users.
-
+ 
 ### Products
 
 - **GET /products**: Get all products.
